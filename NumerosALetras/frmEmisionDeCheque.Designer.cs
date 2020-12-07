@@ -66,12 +66,12 @@
             // 
             this.txtResultado.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtResultado.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtResultado.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtResultado.Location = new System.Drawing.Point(37, 272);
+            this.txtResultado.Font = new System.Drawing.Font("Arial Narrow", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtResultado.Location = new System.Drawing.Point(28, 277);
+            this.txtResultado.Multiline = true;
             this.txtResultado.Name = "txtResultado";
             this.txtResultado.ReadOnly = true;
-            this.txtResultado.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtResultado.Size = new System.Drawing.Size(857, 31);
+            this.txtResultado.Size = new System.Drawing.Size(868, 49);
             this.txtResultado.TabIndex = 4;
             this.txtResultado.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
