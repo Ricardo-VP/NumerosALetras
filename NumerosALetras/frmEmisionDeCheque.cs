@@ -21,7 +21,7 @@ namespace NumerosALetras
         {
             //UTILS.Clases.NumerosLetras.TestUnidades();
             int num = Int32.Parse(this.txtCantidad.Text);
-            this.txtResultado.Text = UTILS.Clases.NumerosLetras.getUnidades(num);
+            this.txtResultado.Text = UTILS.Clases.NumerosLetras.getMillones(num);
         }
     }
 }

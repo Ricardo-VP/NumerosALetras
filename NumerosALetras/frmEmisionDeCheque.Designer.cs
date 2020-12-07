@@ -58,6 +58,7 @@
             // 
             this.txtCantidad.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCantidad.Location = new System.Drawing.Point(248, 133);
+            this.txtCantidad.MaxLength = 9;
             this.txtCantidad.Name = "txtCantidad";
             this.txtCantidad.Size = new System.Drawing.Size(176, 30);
             this.txtCantidad.TabIndex = 2;
