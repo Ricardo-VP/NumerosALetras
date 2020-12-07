@@ -16,5 +16,12 @@ namespace NumerosALetras
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //UTILS.Clases.NumerosLetras.TestUnidades();
+            int num = Int32.Parse(this.txtCantidad.Text);
+            this.txtResultado.Text = UTILS.Clases.NumerosLetras.getUnidades(num);
+        }
     }
 }
